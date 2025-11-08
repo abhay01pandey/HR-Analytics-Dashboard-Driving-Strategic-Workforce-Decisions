@@ -1,26 +1,57 @@
 # HR-Analytics-Dashboard-Driving-Strategic-Workforce-Decisions
-This project presents a dynamic HR Analytics Dashboard designed to provide a comprehensive and visual overview of an organization's workforce data. By transforming raw HR data into actionable insights, this dashboard empowers human resources and leadership teams to make data-driven decisions, improve employee retention, and optimize talent management strategies.
-# Project Overview
- The organization was experiencing high employee attrition without a clear understanding of its root causes, making it difficult to implement effective retention strategies.
- My objective was to create a centralized, easy-to-interpret dashboard that highlights key trends and patterns in employee data.
- I developed this interactive dashboard using Power BI, integrating various datasets to analyze attrition by demographics, job role, salary, and more.
- The dashboard successfully identified key drivers of attrition, enabling stakeholders to develop targeted interventions and improve overall workforce stability.
-# Key Features
- * Comprehensive Metrics: Displays critical KPIs such as Overall Employees, Attrition Rate, Average Age, and Average Salary.
- * Interactive Visualizations: Features intuitive charts and graphs for a deeper dive into attrition by education, age, salary slab, and job role.
- * Attrition Analysis: Provides detailed breakdowns of attrition based on gender, age, and years at the company.
- * Role-Based Insights: Highlights which job roles are most affected by attrition, allowing for targeted talent management efforts.
-# Insights
- * High Attrition Rate: The dashboard reveals a notable attrition rate of 16.1%, indicating a need for strategic intervention.
- * Life Sciences Disproportionately Affected: Employees with a Life Sciences background show the highest attrition, accounting for 38% of all departures.
- * Laboratory Technicians at Risk: The role of Laboratory Technician has the highest number of attritions at 62, suggesting potential issues within this specific department.
- * Experience vs. Attrition: The data shows a significant spike in attrition for employees with 1-2 years and 5-6 years of tenure, highlighting critical retention windows.
- * Younger Workforce Attrition: The 26-35 age group shows the highest attrition, indicating that efforts should be focused on retaining younger talent.
-# Tools/Technologies Used
- * Data Visualization/BI Tool: Microsoft Power BI
- * Data Source: Excel
-# Real-World Application
-This dashboard is a vital tool for HR departments, offering a clear and immediate understanding of employee turnover. It can be used to:
- * Inform Recruitment Strategies: Target and retain talent in high-attrition roles.
- * Optimize Employee Engagement: Identify at-risk groups and develop tailored retention programs.
- * Support Strategic Planning: Provide leadership with the data needed to forecast workforce needs and budgets.
+This project features a Human Resources (HR) Analytics Dashboard built in Power BI, designed to analyze and visualize employee attrition within the organization. The primary goal is to provide HR leadership and department heads with a clear, data-driven view of attrition trends, key demographic drivers, and high-risk job roles to support targeted retention strategies.
+
+Key Metrics Tracked:
+
+Overall Employees: 1,470
+
+Total Attrition: 237
+
+Attrition Rate: 16.1%
+
+Average Age: 37
+
+Average Salary: $7K
+
+Average Years at Company: 7.0
+
+# Dataset & Tools Used
+Dataset:
+
+The analysis is based on a structured dataset containing employee demographic, tenure, salary, and job role information, along with their final attrition status.
+
+Tools:
+
+Power BI: Utilized for data modeling, calculated metrics (DAX), and the creation of all interactive visuals, KPIs, and filtering capabilities.
+
+Power Query: Used for initial data cleaning, transformation, and ensuring data quality before loading into the data model.
+
+# Workflow/Process
+The dashboard creation followed a structured business intelligence process:
+
+Data Import & Modeling: Raw data was imported into Power BI, and relationships between tables were established to ensure the data model was efficient.
+
+Data Transformation (Power Query): Data cleaning steps were performed, including handling null values, standardizing text columns, and ensuring date columns were in the correct format.
+
+Metric Calculation (DAX): Key performance indicators (KPIs) such as Attrition Rate and Average Salary/Age were calculated using Data Analysis Expressions (DAX).
+
+Visual Development: A series of dynamic charts (bar charts, line charts, donut charts, and tables) were built to analyze attrition across multiple dimensions (Age, Role, Salary, Education).
+
+Interactivity & Filtering: Department slicers/filters (Human Resources, Research & Development, Sales) were implemented to allow users to drill down into specific business units.
+
+# Dashboard Insights
+The dashboard delivers immediate insights on where attrition is concentrated:
+
+Demographic Drivers: Attrition is almost equally split by gender (Male: 140, Female: 97).
+
+Age and Tenure Risk: The largest volume of attrition (116) occurs in the 26-35 age bracket. The area chart showing Attrition By Year At Company peaks sharply in the first year, indicating a high risk during the initial tenure (onboarding/probation).
+
+Job Role Hotspots: The highest number of attritions is concentrated in Laboratory Technician (62), Sales Executive (57), and Research Scientist (47) roles.
+
+Salary and Education: The majority of individuals who attrited fell into the "Upto 5K" salary slab (163) and held a background in Life Sciences (38% of total attrition by education).
+
+# Results and Conclusion
+
+The HR Analytics Dashboard provides a strong foundation for developing targeted retention programs.
+
+The analysis clearly indicates that attrition is an early tenure issue, heavily concentrated among junior salary brackets and specific high-volume roles (Laboratory Tech, Sales Exec). This suggests opportunities to improve compensation structures for lower salary bands and enhance the onboarding and mentorship experience during the critical first year of employment.
