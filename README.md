@@ -26,7 +26,7 @@ Power BI: Utilized for data modeling, calculated metrics (DAX), and the creation
 
 Power Query: Used for initial data cleaning, transformation, and ensuring data quality before loading into the data model.
 
-# Workflow/Process
+# Workflow
 The dashboard creation followed a structured business intelligence process:
 
 Data Import & Modeling: Raw data was imported into Power BI, and relationships between tables were established to ensure the data model was efficient.
